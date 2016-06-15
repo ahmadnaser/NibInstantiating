@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B50814F9E3215961E8B8797CD61B9DF5C80D0EA3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B50814F9E3215961E8B8797CD61B9DF5C80D0EA3" : 0,
+    "386509A58791669C55D28BE05221A83A1D94F774" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "07682EDA-C244-473A-844D-D1BB4FEA058A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B50814F9E3215961E8B8797CD61B9DF5C80D0EA3" : "NibInstantiating\/",
+    "386509A58791669C55D28BE05221A83A1D94F774" : "TableViewInsets\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NibInstantiating",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NibInstantiating\/NibInstantiating.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kkendall33\/TableViewInsets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "386509A58791669C55D28BE05221A83A1D94F774"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kkendall33\/NibInstantiating.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B50814F9E3215961E8B8797CD61B9DF5C80D0EA3"
+    }
+  ]
+}
