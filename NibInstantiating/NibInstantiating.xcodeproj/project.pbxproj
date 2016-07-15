@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9979C08F1D16395D003E9AA5 /* NibInstantiating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C9181D112AA8003476C3 /* NibInstantiating.swift */; };
 		9988C8EA1D112A1E003476C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C8E91D112A1E003476C3 /* AppDelegate.swift */; };
 		9988C8F11D112A1E003476C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9988C8F01D112A1E003476C3 /* Assets.xcassets */; };
 		9988C8F41D112A1E003476C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988C8F21D112A1E003476C3 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,10 @@
 		9988C9211D112AA8003476C3 /* TextInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C91A1D112AA8003476C3 /* TextInputBar.swift */; };
 		9988C9221D112AA8003476C3 /* TextInputBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9988C91B1D112AA8003476C3 /* TextInputBar.xib */; };
 		9988C9231D112AA8003476C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988C91D1D112AA8003476C3 /* Main.storyboard */; };
+		99E4AC251D16358A00C79A89 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E4AC241D16358A00C79A89 /* TestView.xib */; };
+		99E4AC271D1635C800C79A89 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E4AC261D1635C800C79A89 /* TestView.swift */; };
+		99E4AC291D1636B300C79A89 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E4AC241D16358A00C79A89 /* TestView.xib */; };
+		99E4AC2A1D1636B600C79A89 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E4AC261D1635C800C79A89 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,8 @@
 		9988C91A1D112AA8003476C3 /* TextInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInputBar.swift; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/TextInputBar.swift; sourceTree = "<group>"; };
 		9988C91B1D112AA8003476C3 /* TextInputBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TextInputBar.xib; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/TextInputBar.xib; sourceTree = "<group>"; };
 		9988C91C1D112AA8003476C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99E4AC241D16358A00C79A89 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		99E4AC261D1635C800C79A89 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +131,8 @@
 			children = (
 				9988C8FE1D112A1E003476C3 /* NibInstantiatingTests.swift */,
 				9988C9001D112A1E003476C3 /* Info.plist */,
+				99E4AC241D16358A00C79A89 /* TestView.xib */,
+				99E4AC261D1635C800C79A89 /* TestView.swift */,
 			);
 			path = NibInstantiatingTests;
 			sourceTree = "<group>";
@@ -244,6 +253,7 @@
 				9988C8F41D112A1E003476C3 /* LaunchScreen.storyboard in Resources */,
 				9988C8F11D112A1E003476C3 /* Assets.xcassets in Resources */,
 				9988C9221D112AA8003476C3 /* TextInputBar.xib in Resources */,
+				99E4AC291D1636B300C79A89 /* TestView.xib in Resources */,
 				9988C9231D112AA8003476C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E4AC251D16358A00C79A89 /* TestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E4AC2A1D1636B600C79A89 /* TestView.swift in Sources */,
 				9988C9201D112AA8003476C3 /* ExampleTableViewController.swift in Sources */,
 				9988C8EA1D112A1E003476C3 /* AppDelegate.swift in Sources */,
 				9988C91E1D112AA8003476C3 /* TableViewInsetsAdjusting.swift in Sources */,
@@ -281,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E4AC271D1635C800C79A89 /* TestView.swift in Sources */,
 				9988C8FF1D112A1E003476C3 /* NibInstantiatingTests.swift in Sources */,
+				9979C08F1D16395D003E9AA5 /* NibInstantiating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +515,7 @@
 				9988C9101D112A1E003476C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9988C9111D112A1E003476C3 /* Build configuration list for PBXNativeTarget "NibInstantiatingTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +524,7 @@
 				9988C9131D112A1E003476C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9988C9141D112A1E003476C3 /* Build configuration list for PBXNativeTarget "NibInstantiatingUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +533,7 @@
 				9988C9161D112A1E003476C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
