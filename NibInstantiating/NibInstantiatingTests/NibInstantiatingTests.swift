@@ -11,26 +11,44 @@ import XCTest
 
 class NibInstantiatingTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test_viewFromNib_createsNewView_fromViewThatConformsToNibInstantiatingWithXibFile() {
+        let view = SomeValidView.viewFromNib()
+        
+        XCTAssert(view != nil, "The view should have existed")
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func test_viewFromNib_createsNewView_fromViewThatConformsToNibInstantiatingWithXibFileThatSetsOwnNibName() {
+        let view = AnotherValidView.viewFromNib()
+        
+        XCTAssert(view != nil, "The view should have existed")
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    // Test crashes app, hopefully Apple changes this to throwing rather than crashing, at some point.
+//    func test_viewFromNib_doesNotCreateNewView_fromViewThatConformsToNibInstantiatingWithXibFileThatSetsOwnNibNameIncorrectly() {
+//        let view = AnotherInvalidView.viewFromNib()
+//        
+////        assert(view == nil, "The view should have existed")
+//        XCTAssert(view == nil, "The view should have existed")
+//    }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    // Test crashes app, hopefully Apple changes this to throwing rather than crashing, at some point.
+//    func test_viewFromNib_doesNotCreateNewView_fromUIViewThatConformsToNibInstantiatingWithNoXibFile() {
+//        let view = SomeInvalidView.viewFromNib()
+//        
+//        assert(view == nil, "The view should have existed")
+//    }
     
 }
+
+
+
+class SomeValidView: UIView, NibInstantiating { }
+class AnotherValidView: UIView, NibInstantiating {
+    static var nibName: String = "AnotherValidViewGotcha"
+}
+
+class SomeInvalidView: UIView, NibInstantiating { }
+class AnotherInvalidView: UIView, NibInstantiating {
+    static var nibName: String = "TheWrongNibName"
+}
+

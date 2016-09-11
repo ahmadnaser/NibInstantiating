@@ -12,12 +12,14 @@
 		9988C8F41D112A1E003476C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988C8F21D112A1E003476C3 /* LaunchScreen.storyboard */; };
 		9988C8FF1D112A1E003476C3 /* NibInstantiatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C8FE1D112A1E003476C3 /* NibInstantiatingTests.swift */; };
 		9988C90A1D112A1E003476C3 /* NibInstantiatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C9091D112A1E003476C3 /* NibInstantiatingUITests.swift */; };
-		9988C91E1D112AA8003476C3 /* TableViewInsetsAdjusting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C9171D112AA8003476C3 /* TableViewInsetsAdjusting.swift */; };
 		9988C91F1D112AA8003476C3 /* NibInstantiating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C9181D112AA8003476C3 /* NibInstantiating.swift */; };
 		9988C9201D112AA8003476C3 /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C9191D112AA8003476C3 /* ExampleTableViewController.swift */; };
 		9988C9211D112AA8003476C3 /* TextInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988C91A1D112AA8003476C3 /* TextInputBar.swift */; };
 		9988C9221D112AA8003476C3 /* TextInputBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9988C91B1D112AA8003476C3 /* TextInputBar.xib */; };
 		9988C9231D112AA8003476C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988C91D1D112AA8003476C3 /* Main.storyboard */; };
+		99A31ACD1D854D5200C53D74 /* AnotherValidViewGotcha.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A31ACC1D854D5200C53D74 /* AnotherValidViewGotcha.xib */; };
+		99A31ACF1D854EC200C53D74 /* AnotherInvalidView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A31ACE1D854EC200C53D74 /* AnotherInvalidView.xib */; };
+		99DAE0361D85488E00804BC9 /* SomeValidView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99DAE0351D85488E00804BC9 /* SomeValidView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +51,14 @@
 		9988C9051D112A1E003476C3 /* NibInstantiatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibInstantiatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9988C9091D112A1E003476C3 /* NibInstantiatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiatingUITests.swift; sourceTree = "<group>"; };
 		9988C90B1D112A1E003476C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9988C9171D112AA8003476C3 /* TableViewInsetsAdjusting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewInsetsAdjusting.swift; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/TableViewInsetsAdjusting.swift; sourceTree = "<group>"; };
 		9988C9181D112AA8003476C3 /* NibInstantiating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibInstantiating.swift; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/NibInstantiating.swift; sourceTree = "<group>"; };
 		9988C9191D112AA8003476C3 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleTableViewController.swift; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/ExampleTableViewController.swift; sourceTree = "<group>"; };
 		9988C91A1D112AA8003476C3 /* TextInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInputBar.swift; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/TextInputBar.swift; sourceTree = "<group>"; };
 		9988C91B1D112AA8003476C3 /* TextInputBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TextInputBar.xib; path = ../../../TableViewInsets/TableViewInsetsExample/TableViewInsetsExample/TextInputBar.xib; sourceTree = "<group>"; };
 		9988C91C1D112AA8003476C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A31ACC1D854D5200C53D74 /* AnotherValidViewGotcha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherValidViewGotcha.xib; sourceTree = "<group>"; };
+		99A31ACE1D854EC200C53D74 /* AnotherInvalidView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherInvalidView.xib; sourceTree = "<group>"; };
+		99DAE0351D85488E00804BC9 /* SomeValidView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeValidView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				9988C8E91D112A1E003476C3 /* AppDelegate.swift */,
-				9988C9171D112AA8003476C3 /* TableViewInsetsAdjusting.swift */,
 				9988C9181D112AA8003476C3 /* NibInstantiating.swift */,
 				9988C9191D112AA8003476C3 /* ExampleTableViewController.swift */,
 				9988C91A1D112AA8003476C3 /* TextInputBar.swift */,
@@ -123,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				9988C8FE1D112A1E003476C3 /* NibInstantiatingTests.swift */,
+				99DAE0351D85488E00804BC9 /* SomeValidView.xib */,
+				99A31ACC1D854D5200C53D74 /* AnotherValidViewGotcha.xib */,
+				99A31ACE1D854EC200C53D74 /* AnotherInvalidView.xib */,
 				9988C9001D112A1E003476C3 /* Info.plist */,
 			);
 			path = NibInstantiatingTests;
@@ -205,13 +211,16 @@
 				TargetAttributes = {
 					9988C8E51D112A1E003476C3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					9988C8F91D112A1E003476C3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9988C8E51D112A1E003476C3;
 					};
 					9988C9041D112A1E003476C3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9988C8E51D112A1E003476C3;
 					};
 				};
@@ -252,6 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DAE0361D85488E00804BC9 /* SomeValidView.xib in Resources */,
+				99A31ACD1D854D5200C53D74 /* AnotherValidViewGotcha.xib in Resources */,
+				99A31ACF1D854EC200C53D74 /* AnotherInvalidView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +283,6 @@
 			files = (
 				9988C9201D112AA8003476C3 /* ExampleTableViewController.swift in Sources */,
 				9988C8EA1D112A1E003476C3 /* AppDelegate.swift in Sources */,
-				9988C91E1D112AA8003476C3 /* TableViewInsetsAdjusting.swift in Sources */,
 				9988C91F1D112AA8003476C3 /* NibInstantiating.swift in Sources */,
 				9988C9211D112AA8003476C3 /* TextInputBar.swift in Sources */,
 			);
@@ -422,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BD.NibInstantiating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -433,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BD.NibInstantiating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -444,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BD.NibInstantiatingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NibInstantiating.app/NibInstantiating";
 			};
 			name = Debug;
@@ -456,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BD.NibInstantiatingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NibInstantiating.app/NibInstantiating";
 			};
 			name = Release;
@@ -467,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BD.NibInstantiatingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = NibInstantiating;
 			};
 			name = Debug;
@@ -478,6 +494,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BD.NibInstantiatingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = NibInstantiating;
 			};
 			name = Release;
@@ -501,6 +518,7 @@
 				9988C9101D112A1E003476C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9988C9111D112A1E003476C3 /* Build configuration list for PBXNativeTarget "NibInstantiatingTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +527,7 @@
 				9988C9131D112A1E003476C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9988C9141D112A1E003476C3 /* Build configuration list for PBXNativeTarget "NibInstantiatingUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +536,7 @@
 				9988C9161D112A1E003476C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
