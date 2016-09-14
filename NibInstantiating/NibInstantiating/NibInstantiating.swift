@@ -14,7 +14,7 @@ import UIKit
  By default it will use the name of the class to find the nib. You can implement this yourself
  if the class name is different than the .xib name.
  */
-protocol NibInstantiating {
+protocol NibInstantiating: class {
     /**
      The default implementation returns (`Self.self`). The class in string format. Which assumes the class name is the
      same as the '.xib' name. If they are different you can override it to provide the correct '.xib' name.
@@ -32,18 +32,19 @@ extension NibInstantiating {
      - seealso: `nibName` This is used to determine which '.xib' file to use
      
      */
-    static func viewFromNib() -> Self {
+    static func viewFromNib() -> Self! {
         var view: Self!
-        let objects = NSBundle.mainBundle().loadNibNamed(nibName, owner: nil, options: nil)
-        for object in objects {
-            guard let foundView = object as? Self else { break }
+        let objects = Bundle(for: self).loadNibNamed(nibName, owner: nil, options: nil)
+        for object in objects! {
+            guard let foundView = object as? Self else { continue }
             view = foundView
+            break
         }
         assert(view != nil, "Could not find object of type: \(Self.self) \(#function)")
         return view
     }
     
-    static var nibName: String { return String(Self.self) }
+    static var nibName: String { return String(describing: Self.self) }
     
 }
 
@@ -70,8 +71,8 @@ extension StoryboardInstantiating {
      */
     static func viewControllerFromStoryboard() -> Self {
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
-        return storyboard.instantiateViewControllerWithIdentifier(viewControllerName) as! Self
+        return storyboard.instantiateViewController(withIdentifier: viewControllerName) as! Self
     }
     
-    static var viewControllerName: String { return String(Self.self) }
+    static var viewControllerName: String { return String(describing: Self.self) }
 }
